@@ -43,10 +43,6 @@ local games = {
     whackamole = function(difficulty, window)
         return WhackAMoleRound:new(difficulty, window)
     end,
-
-    snake = function(difficulty, window)
-        return Snake:new(difficulty, window)
-    end,
 }
 
 local runningId = 0
